@@ -27,12 +27,12 @@ function AddProducts() {
 
   useEffect(() => {
     if (descImageFiles.length > 0) {
-        const fileReader = new FileReader();
-        fileReader.onload = () => {
-          setDescImagePreviewUrls([...previewUrls]);
-        };
-        fileReader.readAsDataURL(file);
-      }
+      const fileReader = new FileReader();
+      fileReader.onload = () => {
+        setDescImagePreviewUrls([...previewUrls]);
+      };
+      fileReader.readAsDataURL(file);
+    }
   }, [descImageFiles]);
 
   const handleProductDescriptionChange = (value) => {
@@ -114,12 +114,14 @@ function AddProducts() {
             </div>
           </div>
           <div className="flex items-end justify-end mt-8">
-            <button className="bg-[#5D5FEF] text-white px-6 py-2" type="submit">Create Product</button>
+            <button className="bg-[#5D5FEF] text-white px-6 py-2" type="submit">
+              Create Product
+            </button>
           </div>
         </div>
       </main>
     </MainAppLayout>
-  );
-};
+  )
+}
 
 export default AddProducts;
