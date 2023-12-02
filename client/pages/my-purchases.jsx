@@ -15,14 +15,14 @@ export default function Mypurchases() {
           <div className="border-2 flex items-center justify-between p-4 m-6">
             <div className="flex">
               <Image src={purchases} alt="purchases" width={120} height={120} className="mr-8" />
-              <div className='flex flex-col items-start justify-center'>
+              <div className="flex flex-col items-start justify-center">
                 <h1 className="text-lg font-bold text-black">Big Sneakers</h1>
                 <h1 className="text-sm font-normal text-[#666]">Order 230912892</h1>
                 <h1 className="text-sm font-normal text-[#666]">Size (UK); 42</h1>
                 <h1 className="text-base text-black font-bold">On-27-2023</h1>
               </div>
             </div>
-            <div className='flex flex-col items-start self-stretch justify-between'>
+            <div className="flex flex-col items-start self-stretch justify-between">
               <h1 className="text-sm font-bold underline text-black">See details</h1>
               <button className="bg-[#6DBD28] px-2 py-1 text-white">Delivered</button>
             </div>
