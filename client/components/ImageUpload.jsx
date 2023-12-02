@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import upload from '../assets/images/upload.png';
 
-function ImageUpload({ previewUrl, filePickerRef, pickedHandler, pickImageHandler }){
+function ImageUpload({ previewUrl, filePickerRef, pickedHandler, pickImageHandler }) {
   <div className="flex items-end">
     <div className="border w-[201px] border-[[#E0E0E0]] mr-6">
       <input
@@ -28,11 +28,11 @@ function ImageUpload({ previewUrl, filePickerRef, pickedHandler, pickImageHandle
       </div>
     </div>
     <div>
-      <button onClick={pickImageHandler} className="bg-[#E0E0E0] px-6 py-2" type='submit'>
+      <button onClick={pickImageHandler} className="bg-[#E0E0E0] px-6 py-2" type="submit">
         Browse
       </button>
     </div>
-  </div>
-};
+  </div>;
+}
 
 export default ImageUpload;
