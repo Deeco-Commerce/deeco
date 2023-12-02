@@ -6,7 +6,7 @@ import MainAppLayout from '../../../components/dashboard/layout/MainAppLayout';
 import back from '../../../assets/images/back.png';
 import ImageUpload from '../../../components/ImageUpload';
 
-const AddProducts = () => {
+function AddProducts() {
   const [imagePreviewUrl, setImagePreviewUrl] = useState();
   const [imageFiles, setImageFiles] = useState([]);
   const imagePickerRef = useRef();
@@ -27,16 +27,12 @@ const AddProducts = () => {
 
   useEffect(() => {
     if (descImageFiles.length > 0) {
-      const previewUrls = [];
-      for (const file of descImageFiles) {
         const fileReader = new FileReader();
         fileReader.onload = () => {
-          previewUrls.push(fileReader.result);
           setDescImagePreviewUrls([...previewUrls]);
         };
         fileReader.readAsDataURL(file);
       }
-    }
   }, [descImageFiles]);
 
   const handleProductDescriptionChange = (value) => {
@@ -118,7 +114,7 @@ const AddProducts = () => {
             </div>
           </div>
           <div className="flex items-end justify-end mt-8">
-            <button className="bg-[#5D5FEF] text-white px-6 py-2">Create Product</button>
+            <button className="bg-[#5D5FEF] text-white px-6 py-2" type="submit">Create Product</button>
           </div>
         </div>
       </main>
