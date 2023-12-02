@@ -121,7 +121,7 @@ function AddProducts() {
         </div>
       </main>
     </MainAppLayout>
-  )
+  );
 }
 
 export default AddProducts;
