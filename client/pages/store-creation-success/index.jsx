@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { toast } from 'react-hot-toast';
 import axios from 'axios';
-import MainAppLayout from '../../components/layout/MainAppLayout';
+import MainAppLayout from '../../components/store-front/layout/MainAppLayout';
 import { baseAPI_URL } from '../../config';
 
 function StoreCreationSuccess() {
