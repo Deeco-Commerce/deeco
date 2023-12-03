@@ -58,7 +58,7 @@ function Myorders() {
         </aside>
       </div>
     </MainAppLayout>
-  )
+  );
 }
 
 export default Myorders;
