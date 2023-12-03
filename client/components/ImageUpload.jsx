@@ -2,8 +2,9 @@ import Image from 'next/image';
 import upload from '../assets/images/upload.png';
 
 function ImageUpload({ previewUrl, filePickerRef, pickedHandler, pickImageHandler }) {
+  return(
   <div className="flex items-end">
-    <div className="border w-[201px] border-[[#E0E0E0]] mr-6">
+    <div className="border w-[201px] h-[127px] border-[#E0E0E0] mr-6">
       <input
         ref={filePickerRef}
         style={{ display: 'none' }}
@@ -32,7 +33,8 @@ function ImageUpload({ previewUrl, filePickerRef, pickedHandler, pickImageHandle
         Browse
       </button>
     </div>
-  </div>;
+  </div>
+  )
 }
 
 export default ImageUpload;

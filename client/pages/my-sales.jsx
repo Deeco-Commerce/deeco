@@ -12,8 +12,7 @@ const Mysales = () => {
             <button className="bg-[#5D5FEF] px-3 py-2 mt-4 lg:mt-0 text-white">View more</button>
           </div>
           <main className="overflow-x-auto">
-            <div className="w-full overflow-x-auto ">
-              <table className="w-full text-black" style={{ minWidth: '800px' }}>
+              <table className="w-full text-black " style={{ minWidth: '800px' }}>
                 <thead>
                   <tr>
                     <th className="p-6 border-b">{''}</th>
@@ -39,7 +38,6 @@ const Mysales = () => {
                   </tr>
                 </tbody>
               </table>
-            </div>
           </main>
         </aside>
       </div>
