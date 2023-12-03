@@ -35,6 +35,7 @@ We are a dynamic team comprised of two talented designers and four skilled devel
 13. React-quill
 14. React-hot-toast
 
+> The server/ backend was deployed on docker.
 
 > MATIC token/coin was used as the default currency for shopping on deeco.
 
