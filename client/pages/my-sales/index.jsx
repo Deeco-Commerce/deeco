@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import MainAppLayout from '../components/dashboard/layout/MainAppLayout';
-import order from '../assets/images/purchases.png';
+import MainAppLayout from '../../components/user-dashboard/layout/MainAppLayout';
+import order from '../../assets/images/purchases.png';
 
 function Mysales() {
   return (
