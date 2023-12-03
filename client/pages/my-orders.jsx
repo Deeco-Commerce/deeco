@@ -2,7 +2,7 @@ import Image from 'next/image';
 import MainAppLayout from '../components/dashboard/layout/MainAppLayout';
 import order from '../assets/images/purchases.png';
 
-const Myorders = () => {
+function Myorders() {
   return (
     <MainAppLayout>
       <div className="flex gap-4 flex-1 container">
@@ -16,13 +16,16 @@ const Myorders = () => {
               <h1 className="text-base text-[#666] font-bold py-2">Totla: #6,800</h1>
             </div>
             <div>
-              <button className="text-[#EB4899] mt-6 lg:mt-0 text border-2 border-[#EB4899] px-8 py-3">
+              <button
+                className="text-[#EB4899] mt-6 lg:mt-0 text border-2 border-[#EB4899] px-8 py-3"
+                type="submit"
+              >
                 Cancel order
               </button>
             </div>
           </div>
           <div className="p-6 border-b-2">
-            <button className="bg-[#6DBD28] px-4 py-3 text-sm font-bold text-white">
+            <button className="bg-[#6DBD28] px-4 py-3 text-sm font-bold text-white" type="submit">
               DELIVERED
             </button>
             <div className="flex border-2 p-6 w-full rounded-lg my-6">
@@ -44,7 +47,7 @@ const Myorders = () => {
                   Import your wallet via seed phrase or private key
                 </p>
               </div>
-              <button className="bg-[#EB4899] text-lg text-white px-6 py-3 m-4">
+              <button className="bg-[#EB4899] text-lg text-white px-6 py-3 m-4" type="submit">
                 Connect Wallet
               </button>
             </div>
@@ -55,7 +58,7 @@ const Myorders = () => {
         </aside>
       </div>
     </MainAppLayout>
-  );
-};
+  )
+}
 
 export default Myorders;

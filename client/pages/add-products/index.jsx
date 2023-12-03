@@ -6,6 +6,7 @@ import Image from 'next/image';
 import MainAppLayout from '../../components/dashboard/layout/MainAppLayout';
 import back from '../../assets/images/back.png';
 import ImageUpload from '../../components/ImageUpload';
+
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
 function AddProducts() {
