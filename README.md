@@ -17,7 +17,7 @@ Amidst all it's different challenges, Web3 continues to struggle in it's strides
 
 > This repository consist of both the client/front-end and blockchain/smart contract aspects of the project.
 
-Being a one man team in this hackathon made building deeco very challenging. It was an experience of a lifetime. "deeco" was built with so much 💝 by me, below is a list of the main awesome technologies that I used.
+Being a one man team in this hackathon made building deeco very challenging. It was an experience of a lifetime. "deeco" was built with so much 💝 by me(@Okpainmo) and the hackathon team at jobjo.co, below is a list of the main awesome technologies that I used.
 
 1. NextJs/ReactJs
 2. TailwindCSS
