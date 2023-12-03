@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import 'react-quill/dist/quill.snow.css';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
-import MainAppLayout from '../../components/dashboard/layout/MainAppLayout';
+import MainAppLayout from '../../components/user-dashboard/layout/MainAppLayout';
 import back from '../../assets/images/back.png';
 import ImageUpload from '../../components/ImageUpload';
 
