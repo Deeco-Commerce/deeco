@@ -22,7 +22,7 @@ Being a one man team in this hackathon made building deeco very challenging. It 
 1. NextJs/ReactJs
 2. TailwindCSS
 3. React contect API
-4. NodeJs/Express(fully types with Typescript).
+4. NodeJs/Express(fully typed with Typescript).
 5. Google Firebase/Firestore
 6. Solidity
 7. Hardhat/Ethers
