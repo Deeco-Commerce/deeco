@@ -15,7 +15,7 @@ Amidst all it's different challenges, Web3 continues to struggle in it's strides
 
 ## Build stack/technologies
 
-> This repository consist of both the client/front-end and blockchain/smart contract aspects of the project.
+> This repository consist of both the client/front-end and server/backend aspects of the project.
 
 Being a one man team in this hackathon made building deeco very challenging. It was an experience of a lifetime. "deeco" was built with so much 💝 by me(@Okpainmo) and the hackathon team at jobjo.co, below is a list of the main awesome technologies that I used.
 
@@ -31,7 +31,7 @@ Being a one man team in this hackathon made building deeco very challenging. It 
 10. Fake store API
 11. Metamask
 12. And More.
-    
+
 > The smart contract was deployed to the Mumbai(polygon) testnet via alchemy.
 
 > MATIC token/coin was used as the default currency for shopping on deeco.
@@ -54,17 +54,17 @@ Being a one man team in this hackathon made building deeco very challenging. It 
 
 Below are some awesome screenshots from deeco.
 
-![deeco screenshot-1](./client/assets/images/sc-1.png)
+![deeco screenshot-1](./client/assets/images/landingpage.png)
 
-![deeco screenshot-2](./client/assets/images/sc-2.png)
+![deeco screenshot-3](./client/assets/images/Signuppage.png)
 
-![deeco screenshot-4](./client/assets/images/sc-4.png)
+![deeco screenshot-2](./client/assets/images/loginpage.png)
 
-![deeco screenshot-6](./client/assets/images/sc-6.png)
+![deeco screenshot-4](./client/assets/images/dashboard.png)
 
-![deeco screenshot-5](./client/assets/images/sc-5.png)
+![deeco screenshot-6](./client/assets/images/products-dashboard.png)
 
-![deeco screenshot-3](./client/assets/images/sc-3.png)
+![deeco screenshot-5](./client/assets/images/payout-dashboard.png)
 
 ## Setting up for development
 
@@ -87,7 +87,7 @@ docker run -d -p 3000:3001 --name deeco-frontend-server okpainmo/deeco-frontend-
 ### Server/Backend - Run the following commands to start the backend server locally.
 
 1. Run the following command to pull the server/backend image from Docker.
-   
+
 ```
 docker pull okpainmo/deeco-backend-server-image:latest
 ```
@@ -98,7 +98,6 @@ docker pull okpainmo/deeco-backend-server-image:latest
 docker run -d -p 5000:8080 -e DB_URI="mongodb+srv://team-access:j2ujj8SvnzsFdOPZ@be-db-core-1.icqldz8.mongodb.net/POC_DB-core?retryWrites=true&w=majority" -e JWT_SECRET="NwCWWGrcsD5oCQbLqBP2Usy9KxGJIXtd" -e JWT_LIFETIME="1H" --name deeco-backend-server deeco-backend-server-image
 
 ```
-
 
 > You MIGHT need to take some more setups. If you ever get into any issues, just create a github issue, I'll respond as soon as possible. I'll also be just a twitter DM or an email way.
 
