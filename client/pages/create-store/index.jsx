@@ -63,13 +63,13 @@ function CreateStore() {
         console.log(deecoUserStoreName);
 
         setTimeout(() => {
-          router.push('/store-creation-success');
+          router.push('/');
         }, 1000);
       }
     } catch (error) {
       if (error instanceof Error) {
         console.log(error);
-        toast.error(error.response.data.responseMessage, {
+        toast.error(error.message, {
           id: toastId,
           duration: 4000
         });

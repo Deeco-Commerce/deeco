@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import MainAppLayout from '../../../components/layout/MainAppLayout';
+import MainAppLayout from '../../components/layout/MainAppLayout';
 import web_shopping from '../../../assets/images/web_shopping.png';
 
 function NameStore() {

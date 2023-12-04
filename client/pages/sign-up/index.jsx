@@ -118,7 +118,7 @@ function SignUp() {
           <h3 className="capitalize text-2xl poppins font-bold">Deeco/sign-up</h3>
           <p className="mt-4 text-[14px]">
             Already have an account?{' '}
-            <Link href="/" className="no-underline text-blue-400 font-bold">
+            <Link href="/log-in" className="no-underline text-blue-400 font-bold">
               Sign in
             </Link>
           </p>

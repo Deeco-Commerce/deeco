@@ -35,11 +35,11 @@ function StoreCreationSuccess() {
       }
 
       setStoreData(fetchedData);
-      console.log(storeData);
+      // console.log(storeData);
     };
 
     handleFetchData();
-  }, [storeData]);
+  });
 
   return (
     <MainAppLayout>
