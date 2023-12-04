@@ -46,7 +46,9 @@ Being a one man team in this hackathon made building deeco very challenging. It 
 
 ## Live demo
 
-> You can watch a live demo of the project here - https://www.awesomescreenshot.com/video/13008461?key=e8314a86270462007152e3b172ec00aa - checkout the demo video(of the stand-alone store) to get wowed even further.
+> For the Soonami Venturethon: https://youtu.be/VXQnWK5BfSE
+
+> You can watch a live demo of the initial POC of the project here - https://www.awesomescreenshot.com/video/13008461?key=e8314a86270462007152e3b172ec00aa - checkout the demo video(of the stand-alone store) to get wowed even further.
 
 ## Screenshots
 
